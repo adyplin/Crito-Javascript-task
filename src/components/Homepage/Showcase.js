@@ -1,7 +1,7 @@
 import React from 'react'
-import ShowCaseElement from '../assets/images/showcase-Element.svg'
-import ShowCaseImage from '../assets/images/showcase-image.svg'
-import Button from './Generics/Button'
+import ShowCaseElement from '../../assets/images/showcase-Element.svg'
+import ShowCaseImage from '../../assets/images/showcase-image.svg'
+import Button from '../Generics/Button'
 
 
 const Showcase = () => {

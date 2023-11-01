@@ -1,8 +1,8 @@
 import React from 'react'
-import WavyLines from '../assets/images/Services-Element.svg'
-import SectionTitle from './Generics/SectionTitle'
-import ServiceBox from './Generics/ServiceBox'
-import Button from './Generics/Button'
+import WavyLines from '../../assets/images/Services-Element.svg'
+import SectionTitle from '../Generics/SectionTitle'
+import ServiceBox from '../Generics/ServiceBox'
+import Button from '../Generics/Button'
 
 const OurServices = () => {
   return (

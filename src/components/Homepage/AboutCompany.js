@@ -1,7 +1,8 @@
 import React from 'react'
-import SectionTitle from './Generics/SectionTitle'
-import Button from './Generics/Button'
-import Founder from '../assets/images/Smiling-girl.svg'
+import { NavLink, Link } from 'react-router-dom'
+import SectionTitle from '../Generics/SectionTitle'
+import Button from '../Generics/Button'
+import Founder from '../../assets/images/Smiling-girl.svg'
 
 const AboutCompany = () => {
   return (
@@ -21,7 +22,7 @@ const AboutCompany = () => {
                     <div className="icon-container">
                         <i className="fa-solid fa-play fa-2xs"></i>
                     </div>
-                    <a href="services.html"><p>Intro Video</p></a>
+                    <Link to="/"><p>Intro Video</p></Link>
                 </div>
             </div>
         </div>

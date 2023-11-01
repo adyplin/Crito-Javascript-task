@@ -1,10 +1,10 @@
 import React from 'react'
-import SectionTitle from './Generics/SectionTitle'
-import Button from './Generics/Button'
-import img_GirlAtTable from '../assets/images/girl-and-table.png'
-import img_Documents from '../assets/images/files.png'
-import img_Books from '../assets/images/books.png'
-import ArticleAndNewsBox from './Generics/ArticleAndNewsBox'
+import SectionTitle from '../Generics/SectionTitle'
+import Button from '../Generics/Button'
+import img_GirlAtTable from '../../assets/images/girl-and-table.png'
+import img_Documents from '../../assets/images/files.png'
+import img_Books from '../../assets/images/books.png'
+import ArticleAndNewsBox from '../Generics/ArticleAndNewsBox'
 
 const ArticleAndNews = () => {
   return (

@@ -1,7 +1,7 @@
 import React from 'react'
-import WomenWithBook from '../assets/images/women-with-book-2.png'
-import WhyChooseUsBox from './Generics/WhyChooseUsBox'
-import SectionTitle from './Generics/SectionTitle'
+import WomenWithBook from '../../assets/images/women-with-book-2.png'
+import WhyChooseUsBox from '../Generics/WhyChooseUsBox'
+import SectionTitle from '../Generics/SectionTitle'
 
 const WhyChooseUs = () => {
   return (

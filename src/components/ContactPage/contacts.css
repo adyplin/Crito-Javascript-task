@@ -173,18 +173,18 @@ header .container .menu .btn-login {
   padding-bottom: 10px;
 }
 
-.headline {
+.headlines {
   background-color: #F0EFE9;
   padding: 15px;
   position: relative;
 }
-.headline .background-lines {
+.headlines .background-lines {
   position: absolute;
   bottom: 0;
   left: 0;
   width: 50%;
 }
-.headline .title {
+.headlines .title {
   display: grid;
   justify-content: center;
   grid-template-columns: auto;
@@ -192,7 +192,7 @@ header .container .menu .btn-login {
   margin-bottom: 100px;
   margin-top: 90px;
 }
-.headline .title .home {
+.headlines .title .home {
   grid-area: home;
   font-family: "Inter", sans-serif;
   font-weight: 200;
@@ -200,7 +200,7 @@ header .container .menu .btn-login {
   text-align: right;
   color: #191919;
 }
-.headline .title .contact {
+.headlines .title .contact {
   grid-area: contact;
   font-family: "Inter", sans-serif;
   font-weight: 500;
@@ -209,7 +209,7 @@ header .container .menu .btn-login {
   text-align: left;
   margin-left: 15px;
 }
-.headline .title .connect {
+.headlines .title .connect {
   grid-area: connect;
   font-family: "DM Sans", sans-serif;
   font-weight: 700;

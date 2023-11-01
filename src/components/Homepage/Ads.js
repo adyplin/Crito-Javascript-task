@@ -1,9 +1,9 @@
 import React from 'react'
-import Paperz from '../assets/images/paperz.png'
-import Dorfuz from '../assets/images/dorfus.png'
-import Martino from '../assets/images/martino.png'
-import Square from '../assets/images/square.png'
-import Gobona from '../assets/images/gobona.png'
+import Paperz from '../../assets/images/paperz.png'
+import Dorfuz from '../../assets/images/dorfus.png'
+import Martino from '../../assets/images/martino.png'
+import Square from '../../assets/images/square.png'
+import Gobona from '../../assets/images/gobona.png'
 
 const ads = () => {
   return (

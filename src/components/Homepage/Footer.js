@@ -1,7 +1,7 @@
 import React from 'react'
-import FooterElement from '../assets/images/footer-element.svg'
-import WhiteCrito from '../assets/images/LogoWhite.svg'
-import FooterBox from './Generics/FooterBox'
+import FooterElement from '../../assets/images/footer-element.svg'
+import WhiteCrito from '../../assets/images/LogoWhite.svg'
+import FooterBox from '../Generics/FooterBox'
 
 const Footer = () => {
   return (

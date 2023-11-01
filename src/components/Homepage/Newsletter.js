@@ -1,6 +1,6 @@
 import React from 'react'
-import img_NewsletterLines from '../assets/images/SignUp-Element.svg'
-import Button from './Generics/Button'
+import img_NewsletterLines from '../../assets/images/SignUp-Element.svg'
+import Button from '../Generics/Button'
 
 
 const Newsletter = () => {

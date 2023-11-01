@@ -1,6 +1,6 @@
 import React from 'react'
-import Button from './Generics/Button'
-import FeaturesBox from './Generics/FeaturesBox'
+import Button from '../Generics/Button'
+import FeaturesBox from '../Generics/FeaturesBox'
 
 const Features = () => {
   return (

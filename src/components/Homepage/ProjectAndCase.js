@@ -1,11 +1,11 @@
 import React from 'react'
-import SectionTitle from './Generics/SectionTitle'
-import Button from './Generics/Button'
-import ProjectAndCaseBox from './Generics/ProjectAndCaseBox'
-import ArticleOne from '../assets/images/article-image-1.png'
-import ArticleTwo from '../assets/images/article-image-2.png'
-import ArticleThree from '../assets/images/article-image-3.png'
-import ArticleFour from '../assets/images/article-image-4.png'
+import SectionTitle from '../Generics/SectionTitle'
+import Button from '../Generics/Button'
+import ProjectAndCaseBox from '../Generics/ProjectAndCaseBox'
+import ArticleOne from '../../assets/images/article-image-1.png'
+import ArticleTwo from '../../assets/images/article-image-2.png'
+import ArticleThree from '../../assets/images/article-image-3.png'
+import ArticleFour from '../../assets/images/article-image-4.png'
 
 
 const ProjectAndCase = () => {
