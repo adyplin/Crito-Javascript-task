@@ -9,7 +9,7 @@ const Footer = () => {
         <img className="foot-element" src={FooterElement} alt="Element" />
         <div className="container">
             <div className="crito">
-                <a className="logo" href="index.html"><img src={WhiteCrito} alt="crito logotype" /></a>
+                <a className="logo" href="/"><img src={WhiteCrito} alt="crito logotype" /></a>
                 <p>Lorem ipsum dolor sit amet consectetur<br /> adipisicing elit. Placeat obcaecati voluptas<br /> voluptates! Voluptates laborum nam<br /> ratione minus necessitatibus, iure<br /> praesentium.</p>
             </div>
             <div className="content-box container">

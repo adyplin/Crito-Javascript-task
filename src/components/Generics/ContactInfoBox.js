@@ -14,8 +14,8 @@ const ContactInfoBox = ({type, title, text, description}) => {
     }
 
   return (
-    <div class="contacts">
-        <i class={getIconClassName()}></i>
+    <div className="contacts">
+        <i className={getIconClassName()}></i>
         <h4>{title}</h4>
         <p>{text}</p>
         <p>{description}</p>

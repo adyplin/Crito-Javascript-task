@@ -35,10 +35,10 @@ const Header = () => {
             </div>
             <div className="menu">
                 <nav>
-                    <a className="active" href="/">Home</a>
-                    <a href="services">Service</a>
-                    <a href="news">News</a>
-                    <a href="contacts">Contact</a>
+                    <NavLink to="/">Home</NavLink>
+                    <NavLink to="/services">Service</NavLink>
+                    <NavLink to="/news">News</NavLink>
+                    <NavLink to="/contacts">Contact</NavLink>
                 </nav>
                 <Button type="login" title="Login" url="/services" />
             </div>

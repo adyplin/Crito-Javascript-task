@@ -173,18 +173,18 @@ header .container .menu .btn-login {
   padding-bottom: 10px;
 }
 
-.headlines {
+.contact_headline {
   background-color: #F0EFE9;
   padding: 15px;
   position: relative;
 }
-.headlines .background-lines {
+.contact_headline .background-lines {
   position: absolute;
   bottom: 0;
   left: 0;
   width: 50%;
 }
-.headlines .title {
+.contact_headline .title {
   display: grid;
   justify-content: center;
   grid-template-columns: auto;
@@ -192,7 +192,7 @@ header .container .menu .btn-login {
   margin-bottom: 100px;
   margin-top: 90px;
 }
-.headlines .title .home {
+.contact_headline .title .home {
   grid-area: home;
   font-family: "Inter", sans-serif;
   font-weight: 200;
@@ -200,7 +200,7 @@ header .container .menu .btn-login {
   text-align: right;
   color: #191919;
 }
-.headlines .title .contact {
+.contact_headline .title .contact {
   grid-area: contact;
   font-family: "Inter", sans-serif;
   font-weight: 500;
@@ -209,7 +209,7 @@ header .container .menu .btn-login {
   text-align: left;
   margin-left: 15px;
 }
-.headlines .title .connect {
+.contact_headline .title .connect {
   grid-area: connect;
   font-family: "DM Sans", sans-serif;
   font-weight: 700;
@@ -309,14 +309,26 @@ header .container .menu .btn-login {
 .contact-us .container {
   background-color: #F0EFE9;
   display: flex;
-  height: 766px;
   width: 100%;
-  padding: 0 50px;
+  padding: 100px 80px;
   margin: 120px auto;
 }
 @media (min-width: 768px) {
   .contact-us .container {
     width: 80%;
+  }
+}
+.contact-us .container .title h2 {
+  text-align: center;
+  font-family: "DM Sans", sans-serif;
+  font-weight: bold;
+  font-size: 35px;
+  color: #191919;
+  margin-bottom: 50px;
+}
+@media (min-width: 768px) {
+  .contact-us .container .title h2 {
+    font-size: 45px;
   }
 }
 .contact-us .container .message {
@@ -326,42 +338,41 @@ header .container .menu .btn-login {
   flex-direction: column;
   width: 100%;
 }
-.contact-us .container .message h2 {
+.contact-us .container .message .success {
   text-align: center;
   font-family: "DM Sans", sans-serif;
-  font-weight: bold;
-  font-size: 35px;
-  color: #191919;
-  margin-bottom: 20px;
-}
-@media (min-width: 768px) {
-  .contact-us .container .message h2 {
-    font-size: 45px;
-  }
+  font-size: 25px;
+  font-weight: 600;
+  color: rgb(48, 117, 94);
 }
 .contact-us .container .message form {
   width: 100%;
   height: auto;
-  margin-bottom: 100px;
 }
-.contact-us .container .message form input {
+.contact-us .container .message form .input-group {
+  display: flex;
+}
+.contact-us .container .message form .input-group input {
   border: none;
   display: flex;
   width: 100%;
   padding: 15px;
   font-size: 16px;
-  margin-bottom: 12px;
+  margin-bottom: 20px;
   border-radius: 25px;
 }
-.contact-us .container .message form textarea {
+.contact-us .container .message form .input-group textarea {
   border: none;
   padding: 15px;
   width: 100%;
-  height: 70%;
   border-radius: 25px;
   resize: none;
 }
+.contact-us .container .message form .errorMessage {
+  color: rgb(204, 65, 65);
+}
 .contact-us .container .message form .btn-theme {
+  width: 100%;
   display: flex;
   margin-top: 30px;
   justify-content: center;
