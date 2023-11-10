@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from '../components/Homepage/Header';
 import Footer from '../components/Homepage/Footer';
-import '.././components/ContactPage/contacts.css';
+import '../contacts.css';
 import Headline from '../components/ContactPage/Headline';
 import ContactInfo from '../components/ContactPage/ContactInfo';
 import ContactUs from '../components/ContactPage/ContactUs';

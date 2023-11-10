@@ -28,13 +28,13 @@ const ContactUs = () => {
 
     if(result.status === 200) {
       setFormSubmitted(true)
-      alert ('Allt gick bra, tack för ditt meddelande')
+      alert ('Success, thanks for your message')
     } else if (result.status === 400) {
-      alert ('Något gick fel');
+      alert ('Something went wrong');
     }
 
     if (!name || !email || !message) {
-      setErrorMessage('*Vänligen fyll i samtliga fält')
+      setErrorMessage('*Please fill out all fields')
       return
     }
   }
@@ -47,7 +47,7 @@ const ContactUs = () => {
                 <h2>Leave us a message<br /> for any information.</h2>
             </div>
             {formSubmitted ? (
-              <p className="success">Meddelandet har skickats <br /> Vi återkommer så snabbt vi kan</p>
+              <p className="success">Message has been sent <br /> We'll get back as fast as we can</p>
             ) : (
             <form onSubmit={handleSubmit} noValidate>
               <p className="errorMessage">{errorMessage}</p>
