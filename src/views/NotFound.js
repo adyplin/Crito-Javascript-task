@@ -4,6 +4,7 @@ import ErrorPage from '../assets/images/ErrorPage.png'
 import { Link } from 'react-router-dom'
 
 
+
 const NotFound = () => {
   return (
     <div className="wrapper-grid">
