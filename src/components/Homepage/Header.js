@@ -10,7 +10,7 @@ const Header = () => {
             <NavLink to="/contacts"><button className="btn-menubars"><i className="fa-solid fa-bars-staggered"></i></button></NavLink>
             <div className="logotype">
                 <Link to="/">
-                <img src={CritoLogo} alt="" />
+                <img src={CritoLogo} alt="crito logotype" />
                 </Link>
             </div>
             <div className="contactinformation-bar">
@@ -29,9 +29,9 @@ const Header = () => {
             </div>
             <div className="socialmedia-bar">
                 <a href="https://facebook.com" target="_blank"><i className="fa-brands fa-facebook"></i></a>
-                    <a href="https://twitter.com" target="_blank"><i className="fa-brands fa-x-twitter"></i></a>
-                    <a href="https://instagram.com" target="_blank"><i className="fa-brands fa-instagram"></i></a>
-                    <a href="https://linkedin.com" target="_blank"><i className="fa-brands fa-linkedin"></i></a>
+                <a href="https://twitter.com" target="_blank"><i className="fa-brands fa-x-twitter"></i></a>
+                <a href="https://instagram.com" target="_blank"><i className="fa-brands fa-instagram"></i></a>
+                <a href="https://linkedin.com" target="_blank"><i className="fa-brands fa-linkedin"></i></a>
             </div>
             <div className="menu">
                 <nav>
@@ -40,7 +40,7 @@ const Header = () => {
                     <NavLink to="/news">News</NavLink>
                     <NavLink to="/contacts">Contact</NavLink>
                 </nav>
-                <Button type="login" title="Login" url="/services" />
+                <Button type="login" title="Login" url="/login" />
             </div>
         </div>
     </header>

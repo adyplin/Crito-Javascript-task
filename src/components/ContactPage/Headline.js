@@ -4,7 +4,7 @@ import img_BackgroundLines from '../../assets/images/showcase-Element.svg'
 const Headline = () => {
   return (
     <section className="contact_headline">
-        <img className="background-lines" src={img_BackgroundLines} alt="" />
+        <img className="background-lines" src={img_BackgroundLines} alt="background-lines" />
         <div className="title">
             <p  className="home">Home</p>
             <p className="contact">Contact</p>

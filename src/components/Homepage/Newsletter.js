@@ -6,7 +6,7 @@ import Button from '../Generics/Button'
 const Newsletter = () => {
   return (
     <section className="newsletter">
-        <img className ="background-lines-right" src={img_NewsletterLines} alt="wavy-lines"/>
+        <img className ="background-lines-right" src={img_NewsletterLines} alt="background-lines"/>
         <div className="container">
             <h2>Get News Updates By Signup</h2>
             <form>

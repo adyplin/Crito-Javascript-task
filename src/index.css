@@ -1489,27 +1489,28 @@ footer .copyright .social-media a:hover {
 }
 
 .page_404 {
-  padding: 40px 0;
+  padding: 60px 0;
   background: #fff;
   font-family: "inter", sans-serif;
 }
 .page_404 img {
-  width: 100%;
+  margin: -5px 0;
+  width: 85%;
+  height: 420px;
 }
 .page_404 .box_404 {
   text-align: center;
 }
 .page_404 .box_404 .image-content {
-  background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
-  height: 400px;
   background-position: center;
 }
 .page_404 .box_404 .image-content h1 {
   font-size: 80px;
 }
 .page_404 .box_404 .content_box_404 {
-  margin-top: -30px;
+  margin-top: 50px;
 }
-.page_404 .box_404 .content_box_404 h3 {
-  font-size: 40px;
+.page_404 .box_404 .content_box_404 p {
+  font-size: 18px;
+  margin-bottom: 50px;
 }

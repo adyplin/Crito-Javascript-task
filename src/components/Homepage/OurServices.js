@@ -19,7 +19,7 @@ const OurServices = () => {
         <Button type="transparent" title="Browse Services" url="/services" />
         </div>
     </div>
-    <img class ="wavy-lines" src={WavyLines} alt="" />
+    <img className="wavy-lines" src={WavyLines} alt="background-lines" />
 </section>
   )
 }

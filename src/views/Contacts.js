@@ -11,15 +11,14 @@ import LocateUs from '../components/ContactPage/LocateUs';
 const Contacts = () => {
   return (
     <>
-        <Header />
-        <main>
-        <Headline />
-        <ContactInfo />
-        <ContactUs />
-        <LocateUs />
-        </main>
-        <Footer />
-
+      <Header />
+      <main>
+      <Headline />
+      <ContactInfo />
+      <ContactUs />
+      <LocateUs />
+      </main>
+      <Footer />
     </>
   )
 }

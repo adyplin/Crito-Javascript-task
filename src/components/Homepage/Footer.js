@@ -6,7 +6,7 @@ import FooterBox from '../Generics/FooterBox'
 const Footer = () => {
   return (
     <footer>
-        <img className="foot-element" src={FooterElement} alt="Element" />
+        <img className="foot-element" src={FooterElement} alt="background-lines" />
         <div className="container">
             <div className="crito">
                 <a className="logo" href="/"><img src={WhiteCrito} alt="crito logotype" /></a>
