@@ -28,15 +28,14 @@ const ContactUs = () => {
 
     if(result.status === 200) {
       setFormSubmitted(true)
-      alert ('Success, thanks for your message')
     } else if (result.status === 400) {
-      alert ('Something went wrong');
+      
+      if (!name || !email || !message) {
+        setErrorMessage('*Please fill out all fields')
+        return
+      }
     }
 
-    if (!name || !email || !message) {
-      setErrorMessage('*Please fill out all fields')
-      return
-    }
   }
   
   return (
